@@ -19,10 +19,9 @@ header
 
 header img
 {
-    float: left;
-    width: 107%;
-    height: 13vh;
-    box-shadow: unset;
+    width: 100%;
+    height: 18vh;
+
 }
 
 header nav{
@@ -30,11 +29,10 @@ header nav{
 }
 
 nav ul {
-    margin: 0;
-    padding-left: 27%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 4%;
 }
 
 nav ul li {
@@ -51,4 +49,55 @@ nav a {
     font-size: 70%;
     font-weight: bold;
     text-decoration: none;
+}
+
+main{
+    padding: 5%;
+}
+.Conexiones {
+
+    margin-top: 5%;
+}
+
+.linkGrande {
+  width: 100%;
+  display: flex;
+  gap: 15%;
+  justify-content: center;
+}
+
+.linkGrande  div {
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.linkPequeño, .Opiniones div {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+    gap: 33%;
+}
+
+
+.historia {
+    background-image: url(imagenes/HISTORIA.jpg);
+}
+
+.ofertas { 
+    background-image: url(imagenes/imagendisqueria.jpg);
+
+}
+
+.linkGrande h2,
+.linkGrande h3 {
+    background-color: white;
+    padding: 0.2rem 0.5rem;
 }
